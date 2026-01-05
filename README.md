@@ -1,6 +1,6 @@
 # Coral Detector App 🪸
 
-https://cordect-cv.streamlit.app/
+https://coraldetector.streamlit.app/
 
 Coral Detector App is a Computer Vision–based application developed as a final project.  
 This application utilizes deep learning–based object detection to detect and count coral objects from images and videos.
