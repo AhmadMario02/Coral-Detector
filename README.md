@@ -101,30 +101,18 @@ The current device status is displayed on the application interface.
 
 ---
 
-## 🚀 How to Run the Application
+## Installation
 
-### 1️⃣ Install Dependencies
-
-```bash
-pip install ultralytics streamlit opencv-python torch pillow numpy
-```
-
-### 2️⃣ Run Streamlit App
+Install dependencies using:
 
 ```bash
-streamlit run app.py
+pip install -r requirements.txt
 ```
 
-Make sure the trained YOLO model file `(best.pt)` is placed in the project directory.
+### Notes
 
-### 📂 Project Structure
-
-```bash
-.
-├── app.py                  # Streamlit application
-├── best.pt                 # Trained YOLO model
-├── README.md               # Project documentation
-```
+This application is designed to run on Streamlit Cloud (CPU only).
+OpenCV is installed using the headless version for compatibility.
 
 ---
 
